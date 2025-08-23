@@ -22,7 +22,7 @@ function AboutMe () {
               href='#'
               className='flex flex-row items-center gap-2 hover:bg-yellow-700 hover:rounded-full hover:text-white transition-all bg-transition duration-400'
             >
-              <div className='p-3 rounded-full bg-yellow-700'>
+              <div className='p-3 rounded-full bg-yellow-700 text-white'>
                 <FaEnvelope className='w-5 h-5' />
               </div>
               <span>eldad.rizaldi@gmail.com</span>
@@ -32,7 +32,7 @@ function AboutMe () {
               href='#'
               className='flex flex-row items-center gap-2 hover:bg-teal-700 hover:rounded-full hover:text-white transition-all duration-400'
             >
-              <div className='p-3 rounded-full bg-teal-700'>
+              <div className='p-3 rounded-full bg-teal-700 text-white'>
                 <FaPhone className='w-5 h-5' />
               </div>
               <span>(+62) 821-3640-2975 (ID)</span>
@@ -42,7 +42,7 @@ function AboutMe () {
               href='https://github.com/rizaldieldad'
               className='flex flex-row items-center gap-2 hover:bg-gray-700 hover:rounded-full hover:text-white transition-all duration-400'
             >
-              <div className='p-3 rounded-full bg-gray-700'>
+              <div className='p-3 rounded-full bg-gray-700 text-white'>
                 <FaGithub className='w-5 h-5' />
               </div>
               <span>rizaldieldad</span>
@@ -52,7 +52,7 @@ function AboutMe () {
               href='https://www.linkedin.com/in/eldad-rizaldi-adipratama'
               className='flex flex-row items-center gap-2 hover:bg-sky-700 hover:rounded-full hover:text-white transition-all duration-400'
             >
-              <div className='p-3 rounded-full bg-sky-700'>
+              <div className='p-3 rounded-full bg-sky-700 text-white'>
                 <FaLinkedin className='w-5 h-5' />
               </div>
               <span>Eldad Rizaldi Adipratama</span>
@@ -62,7 +62,7 @@ function AboutMe () {
               href='#'
               className='flex flex-row items-center gap-2 hover:bg-pink-700 hover:rounded-full hover:text-white transition-all duration-400'
             >
-              <div className='p-3 rounded-full bg-pink-700'>
+              <div className='p-3 rounded-full bg-pink-700 text-white'>
                 <FaInstagram className='w-5 h-5' />
               </div>
               <span>Instagram</span>
@@ -76,12 +76,15 @@ function AboutMe () {
             Eldad Rizaldi
           </h2>
           <p className='text-slate-600 dark:text-zinc-400 leading-loose'>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptates, illo iure voluptate unde voluptas deleniti sequi sunt,
-            delectus modi rerum fuga suscipit quam culpa? Molestias commodi ab a
-            beatae alias, quas impedit sapiente? Necessitatibus sapiente ad
-            eveniet mollitia sint quisquam aspernatur possimus omnis praesentium
-            dicta?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a
+            modi sunt corrupti cum sapiente aperiam natus ab ratione, eos
+            nesciunt quam ad est itaque omnis et repudiandae deleniti distinctio
+            unde? Facere, asperiores quas itaque veniam dolores tempora! Hic
+            provident vel repudiandae id ea reprehenderit aliquid consequatur
+            sapiente mollitia ad praesentium a architecto modi inventore labore,
+            iusto ex facere, nostrum optio delectus. Perspiciatis, est. Eum at
+            aliquam fugiat quas animi minima harum sunt, neque optio! Possimus
+            ut dolores exercitationem veritatis.
           </p>
           <p className='text-slate-600 dark:text-zinc-400 leading-loose'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
@@ -108,7 +111,6 @@ function AboutMe () {
                 src='https://open.spotify.com/embed/album/7ah4nkw82m0ngQwPKrgHUc?utm_source=generator&theme=0'
                 width='100%'
                 height='352'
-                frameBorder='0'
                 allowfullscreen=''
                 allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
                 loading='lazy'

@@ -26,7 +26,8 @@ function Header () {
           pariatur delectus, mollitia autem adipisci accusantium.
         </p>
         <div className='flex flex-row gap-4 mt-4'>
-          <a
+          {/* old icons design */}
+          {/* <a
             href='#'
             className='text-slate-500 dark:text-zinc-400 hover:text-slate-600 dark:hover:text-slate-700 transition-colors duration-200'
           >
@@ -49,6 +50,71 @@ function Header () {
             className='text-slate-500 dark:text-zinc-400 hover:text-green-600 dark:hover:text-green-700 transition-colors duration-200'
           >
             <IoDocumentText className='w-5 h-5' />
+          </a> */}
+
+          <a
+            href='#'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center group overflow-hidden text-slate-500 dark:text-zinc-400 hover:text-slate-600 dark:hover:text-slate-700 transition-colors duration-200'
+          >
+            {/* Icon */}
+            <span className='text-2xl'>
+              <FaGithub className='w-5 h-5' />
+            </span>
+
+            {/* Text that pushes icons */}
+            <span className='ml-2 text-sm text-zinc-900 font-medium dark:text-white max-w-0 group-hover:max-w-xs opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap'>
+              Github
+            </span>
+          </a>
+          <a
+            href='#'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center group overflow-hidden text-slate-500 dark:text-zinc-400 hover:text-sky-600 dark:hover:text-sky-700 transition-colors duration-200'
+          >
+            {/* Icon */}
+            <span className='text-2xl'>
+              <FaLinkedin className='w-5 h-5' />
+            </span>
+
+            {/* Text that pushes icons */}
+            <span className='ml-2 text-sm font-medium text-zinc-900 dark:text-white max-w-0 group-hover:max-w-xs opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap'>
+              LinkedIn
+            </span>
+          </a>
+          <a
+            href='#'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center group overflow-hidden text-slate-500 dark:text-zinc-400 hover:text-pink-600 dark:hover:text-pink-700 transition-colors duration-200'
+          >
+            {/* Icon */}
+            <span className='text-2xl'>
+              <FaInstagram className='w-5 h-5' />
+            </span>
+
+            {/* Text that pushes icons */}
+            <span className='ml-2 text-sm font-medium text-zinc-900 dark:text-white max-w-0 group-hover:max-w-xs opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap'>
+              Instagram
+            </span>
+          </a>
+          <a
+            href='#'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center group overflow-hidden text-slate-500 dark:text-zinc-400 hover:text-green-600 dark:hover:text-green-700 transition-colors duration-200'
+          >
+            {/* Icon */}
+            <span className='text-2xl'>
+              <IoDocumentText className='w-5 h-5' />
+            </span>
+
+            {/* Text that pushes icons */}
+            <span className='ml-2 text-sm font-medium text-zinc-900 dark:text-white max-w-0 group-hover:max-w-xs opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap'>
+              CV
+            </span>
           </a>
         </div>
       </div>
