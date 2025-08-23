@@ -29,9 +29,9 @@ function Navbar () {
           Projects
         </Link>
         <Link
-          to='#'
+          to='/about-me'
           className={`hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200 ${
-            location.pathname === '/about' ? 'text-sky-600' : ''
+            location.pathname === '/about-me' ? 'text-sky-600' : ''
           }`}
         >
           About Me
