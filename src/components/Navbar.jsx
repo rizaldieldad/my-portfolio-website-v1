@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { useThemeContext } from '../contexts/ThemeContext'
 
 function Navbar () {
   const { darkMode, toggleDarkMode } = useThemeContext()
+  const location = useLocation()
+
   const handleToggle = () => {
     toggleDarkMode()
   }
@@ -12,19 +14,25 @@ function Navbar () {
       <nav className='flex mx-auto items-center gap-4 sm:gap-8 text-sm sm:text-base font-medium'>
         <Link
           to='/'
-          className='hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200'
+          className={`hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200 ${
+            location.pathname === '/' ? 'text-sky-600' : ''
+          }`}
         >
           Home
         </Link>
         <Link
           to='/projects'
-          className='hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200'
+          className={`hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200 ${
+            location.pathname === '/projects' ? 'text-sky-600' : ''
+          }`}
         >
           Projects
         </Link>
         <Link
           to='#'
-          className='hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200'
+          className={`hover:text-sky-600 dark:hover:text-sky-400 transition-colors duration-200 ${
+            location.pathname === '/about' ? 'text-sky-600' : ''
+          }`}
         >
           About Me
         </Link>
