@@ -1,5 +1,6 @@
 import { useThemeContext } from '../contexts/ThemeContext'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 function Layout ({ children }) {
   const { darkMode } = useThemeContext()
@@ -13,6 +14,7 @@ function Layout ({ children }) {
       <div className='max-w-7xl mx-auto p-4 sm:p-8'>
         <Navbar />
         {children}
+        <Footer />
       </div>
     </div>
   )

@@ -18,9 +18,6 @@ function Home () {
 
       {/* Tech Stacks */}
       <TechStacks />
-
-      {/* Footer */}
-      <Footer />
     </Layout>
   )
 }
