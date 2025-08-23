@@ -46,7 +46,7 @@ function Header () {
           </a>
           <a
             href='#'
-            className='text-slate-500 dark:text-zink-400 hover:text-green-600 dark:hover:hover:text-green-700 transition-colors duration-200'
+            className='text-slate-500 dark:text-zinc-400 hover:text-green-600 dark:hover:text-green-700 transition-colors duration-200'
           >
             <IoDocumentText className='w-5 h-5' />
           </a>
