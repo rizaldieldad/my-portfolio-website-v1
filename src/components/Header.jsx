@@ -24,7 +24,7 @@ function Header () {
           Computer Science fresh graduate with a strong passion for
           <span className='font-bold text-sky-600 dark:text-sky-400'>
             {' '}
-            software developer
+            software development
           </span>{' '}
           and a keen interest in learning new technologies.
         </p>
