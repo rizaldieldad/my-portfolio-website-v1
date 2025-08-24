@@ -27,7 +27,7 @@ function FunTerminal () {
   }
 
   return (
-    <section className='w-full'>
+    <section className='py-8 md:py-16 w-full'>
       <h2 className='text-2xl text-center font-bold text-slate-900 dark:text-white mb-8'>
         Fun Terminal
       </h2>
