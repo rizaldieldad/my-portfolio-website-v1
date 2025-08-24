@@ -16,7 +16,7 @@ function FunTerminal () {
     e.preventDefault()
 
     let response =
-      commands[command.toLowerCase() || "Command not found. Try 'help'"]
+      commands[command.toLowerCase()] || "Command not found. Try 'help'"
     if (command.toLowerCase() === 'clear') {
       setHistory([])
     } else {
