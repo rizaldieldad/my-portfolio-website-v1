@@ -12,8 +12,8 @@ const projects = [
     tech: ['Vue.js', 'Bootstrap'],
     thumbnail:
       'https://placehold.co/600x400/3B82F6/ffffff?text=Company+Profile+Website',
-    github: 'https://github.com/yourusername/project1',
-    live: 'https://yourwebsite.com/project1'
+    github: '',
+    live: ''
   },
   {
     id: 2,
@@ -28,8 +28,9 @@ const projects = [
     ],
     tech: ['Laravel', 'Livewire', 'JavaScript', 'PWA', 'Bootstrap'],
     thumbnail: '/images/projects/thesis.png',
-    github: 'https://github.com/yourusername/project2',
-    live: 'https://yourwebsite.com/project2'
+    github:
+      'https://github.com/rizaldieldad/bible-distribution-management-website',
+    live: 'https://sipenyebaran.my.id/'
   },
   {
     id: 3,
@@ -51,8 +52,8 @@ const projects = [
       'RESTful API'
     ],
     thumbnail: '/images/projects/fullstack-subscription-tracker.png',
-    github: 'https://github.com/yourusername/project3',
-    live: 'https://yourwebsite.com/project3'
+    github: 'https://github.com/rizaldieldad/backend-subscription-tracker',
+    live: ''
   }
 ]
 
