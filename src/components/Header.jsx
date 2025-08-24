@@ -18,7 +18,7 @@ function Header () {
       {/* Bio */}
       <div className='flex flex-col items-center text-center md:items-start md:text-left gap-4'>
         <h1 className='text-4xl sm:text-5xl font-extrabold text-slate-900 dark:text-white'>
-          Hello, I'm Eldad
+          Hello, I'm Eldad 👋
         </h1>
         <p className='text-lg sm:text-xl text-slate-600 dark:text-zinc-400 max-w-lg'>
           Computer Science fresh graduate with a strong passion for
