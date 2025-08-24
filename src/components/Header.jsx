@@ -8,7 +8,7 @@ function Header () {
       <div className='flex justify-center md:justify-end md:me-16'>
         <div className='w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden border-4 border-sky-600 dark:border-sky-400 shadow-xl'>
           <img
-            src='/images/profile.jpg'
+            src='/images/alternative_profile.jpg'
             alt='Photo Profile'
             className='w-full h-full object-cover object-top'
           />
