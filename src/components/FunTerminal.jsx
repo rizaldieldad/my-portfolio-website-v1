@@ -4,6 +4,13 @@ function FunTerminal () {
   const [command, setCommand] = useState('')
   const [history, setHistory] = useState([])
 
+  const currentDate = new Date().toLocaleDateString('id-ID', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  })
+
   const commands = {
     help: 'Available commands: about, projects, contact, clear',
     hi: 'Hello, nice to meet you 👋. You can use "help" for available commands.',
@@ -13,7 +20,8 @@ function FunTerminal () {
     about:
       "Hi, I'm Eldad 👋. A computer science fresh graduate who want's to be software developer.",
     projects: 'Checkout my projects at Projects page for more details.',
-    contact: 'You can reach me at: eldad.rizaldi@gmail.com'
+    contact: 'You can reach me at: eldad.rizaldi@gmail.com',
+    date: currentDate + ' (Indonesia)'
   }
 
   const handleCommand = e => {
@@ -36,7 +44,7 @@ function FunTerminal () {
         Fun Terminal
       </h2>
       <div className='bg-black text-green-400 font-mono p-4 rounded-l-2xl shadow-lg'>
-        <div className='h-32 w-full overflow-y-auto'>
+        <div className='h-50 sm:h-32 w-full overflow-y-auto'>
           {history.map((h, i) => (
             <div key={i}>
               <span className='text-blue-400'>guest@portfolio:~$</span> {h.cmd}
