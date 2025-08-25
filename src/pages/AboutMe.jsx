@@ -59,13 +59,13 @@ function AboutMe () {
             </a>
 
             <a
-              href='#'
+              href='https://www.instagram.com/eldadrizaldi_/'
               className='flex flex-row items-center gap-2 hover:bg-pink-700 hover:rounded-full hover:text-white transition-all duration-400'
             >
               <div className='p-3 rounded-full bg-pink-700 text-white'>
                 <FaInstagram className='w-5 h-5' />
               </div>
-              <span>Instagram</span>
+              <span>eldadrizaldi_</span>
             </a>
           </div>
         </div>
@@ -75,22 +75,25 @@ function AboutMe () {
           <h2 className='text-3xl font-bold text-slate-900 dark:text-white'>
             Eldad Rizaldi
           </h2>
-          <p className='text-slate-600 dark:text-zinc-400 leading-loose'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam a
-            modi sunt corrupti cum sapiente aperiam natus ab ratione, eos
-            nesciunt quam ad est itaque omnis et repudiandae deleniti distinctio
-            unde? Facere, asperiores quas itaque veniam dolores tempora! Hic
-            provident vel repudiandae id ea reprehenderit aliquid consequatur
-            sapiente mollitia ad praesentium a architecto modi inventore labore,
-            iusto ex facere, nostrum optio delectus. Perspiciatis, est. Eum at
-            aliquam fugiat quas animi minima harum sunt, neque optio! Possimus
-            ut dolores exercitationem veritatis.
+          <p className='text-slate-600 dark:text-zinc-400 leading-loose text-justify'>
+            Halo👋 ~ Perkenalkan saya Eldad seorang lulusan baru computer
+            science yang fokus pada pengembangan software khususnya dalam bidang
+            web development. Sebagai seorang lulusan baru, saya ingin terus
+            belajar untuk meningkatkan kualitas diri. Dengan harapan saya bisa
+            menjadi seorang yang dapat diandalkan dan membantu banyak orang,
+            khususnya yang membutuhkan. Keluarga dan orang-orang terdekat saya
+            adalah sumber semangat saya. Saya berjanji akan terus berkembang
+            menjadi pribadi yang lebih baik.
           </p>
-          <p className='text-slate-600 dark:text-zinc-400 leading-loose'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            dicta itaque quis vitae commodi. Quasi labore laudantium blanditiis
-            consequuntur, nisi ipsam perferendis dolore qui? Fugiat incidunt ad
-            repudiandae cumque itaque.
+
+          <p className='text-slate-600 dark:text-zinc-400 leading-loose text-justify'>
+            Saya sangat suka sepak bola. Tim favorit saya? sudah jelas
+            Barcelona. Bagi saya sepak bola bukan sekedar permainan atau
+            pertanding, sepak bola adalah seni, seperti puisi yang indah yang
+            memanjakan mata. Oleh karena itu menurut saya permainan sepak bola
+            yang indah sama pentingnya dengan kemenangan. Selain sepak bola,
+            saya juga sangat suka menghabiskan waktu dengan pergi ke alam,
+            menontol film / series, dan mendengarkan musik.
           </p>
 
           {/* spotify playlist */}
