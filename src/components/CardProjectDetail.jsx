@@ -1,14 +1,14 @@
 function CardProjectDetail ({ project }) {
   return (
-    <div className='flex flex-col md:flex-row gap-8 bg-white dark:bg-zinc-800 mb-8 p-8 rounded-xl shadow-sm shadow-gray-400 dark:shadow-none transition-colors duration-200'>
-      <div className='w-full md:w-1/2'>
+    <div className='flex flex-col lg:flex-row gap-8 bg-white dark:bg-zinc-800 mb-8 p-8 rounded-xl shadow-sm shadow-gray-400 dark:shadow-none transition-colors duration-200'>
+      <div className='w-full lg:w-1/2'>
         <img
           src={project.thumbnail}
           alt={project.title}
           className='w-full h-full object-cover'
         />
       </div>
-      <div className='w-full md:w-1/2'>
+      <div className='w-full lg:w-1/2'>
         <div className='space-y-4'>
           <h1 className='text-3xl sm:text-4xl font-extrabold text-zinc-800 dark:text-white'>
             {project.title}
