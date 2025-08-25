@@ -76,24 +76,22 @@ function AboutMe () {
             Eldad Rizaldi
           </h2>
           <p className='text-slate-600 dark:text-zinc-400 leading-loose text-justify'>
-            Halo👋 ~ Perkenalkan saya Eldad seorang lulusan baru computer
-            science yang fokus pada pengembangan software khususnya dalam bidang
-            web development. Sebagai seorang lulusan baru, saya ingin terus
-            belajar untuk meningkatkan kualitas diri. Dengan harapan saya bisa
-            menjadi seorang yang dapat diandalkan dan membantu banyak orang,
-            khususnya yang membutuhkan. Keluarga dan orang-orang terdekat saya
-            adalah sumber semangat saya. Saya berjanji akan terus berkembang
-            menjadi pribadi yang lebih baik.
+            Hey there!👋 My name is Eldad, and I'm a recent computer science
+            graduate who specializes in software development, particularly in
+            the field of web development. As a new grad, I'm eager to keep
+            learning and improving my skills. I hope to become a dependable
+            person who can help lots of people, especially those in need. My
+            family and close friends are my biggest source of motivation, and I
+            promise to keep growing into a better person.
           </p>
 
           <p className='text-slate-600 dark:text-zinc-400 leading-loose text-justify'>
-            Saya sangat suka sepak bola. Tim favorit saya? sudah jelas
-            Barcelona. Bagi saya sepak bola bukan sekedar permainan atau
-            pertanding, sepak bola adalah seni, seperti puisi yang indah yang
-            memanjakan mata. Oleh karena itu menurut saya permainan sepak bola
-            yang indah sama pentingnya dengan kemenangan. Selain sepak bola,
-            saya juga sangat suka menghabiskan waktu dengan pergi ke alam,
-            menontol film / series, dan mendengarkan musik.
+            I'm a huge football fan. My favorite team? Definitely Barcelona. To
+            me, football is more than just a game or a match; it's an art form,
+            like a beautiful poem that's a feast for the eyes. That's why I
+            think playing a beautiful game is just as important as winning.
+            Besides football, I also love spending time in nature, watching
+            movies or TV series, and listening to music.
           </p>
 
           {/* spotify playlist */}
