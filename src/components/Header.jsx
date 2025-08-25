@@ -131,7 +131,7 @@ function Header () {
           </a>
 
           {/* separator */}
-          <div className='border-l border-slate-400 h-6'></div>
+          {/* <div className='border-l border-slate-400 h-6'></div> */}
 
           {/* <Likes /> */}
         </div>
