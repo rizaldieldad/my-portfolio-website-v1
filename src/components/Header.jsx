@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { IoDocumentText } from 'react-icons/io5'
+import Likes from './Likes'
 
 function Header () {
   return (
@@ -30,7 +31,7 @@ function Header () {
         </p>
 
         {/* Social media links */}
-        <div className='flex flex-row gap-4 mt-4'>
+        <div className='flex flex-row items-center gap-4 mt-4'>
           {/* old icons design */}
           {/* <a
             href='#'
@@ -128,6 +129,11 @@ function Header () {
               CV
             </span>
           </a>
+
+          {/* separator */}
+          <div className='border-l border-slate-400 h-6'></div>
+
+          <Likes />
         </div>
       </div>
     </section>

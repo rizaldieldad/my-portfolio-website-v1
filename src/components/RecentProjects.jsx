@@ -14,7 +14,10 @@ function RecentProjects () {
       </h2>
       <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'>
         {latestProjects.map(project => (
-          <div className='bg-white dark:bg-zinc-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300'>
+          <div
+            key={project.id}
+            className='bg-white dark:bg-zinc-800 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300'
+          >
             <img
               className='w-full h-48 object-cover rounded-t-xl'
               src={project.thumbnail}
@@ -29,7 +32,7 @@ function RecentProjects () {
               </p>
               <div className='flex flex-wrap gap-2 mt-4'>
                 {project.tech.map(tech => (
-                  <Badge>{tech}</Badge>
+                  <Badge key={tech}>{tech}</Badge>
                 ))}
               </div>
             </div>

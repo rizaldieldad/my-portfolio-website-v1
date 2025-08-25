@@ -95,7 +95,10 @@ function TechStacks () {
       </h2>
       <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-3'>
         {techs.map(tech => (
-          <div className='flex flex-row gap-2 items-center border-2 border-slate-200 dark:border-zinc-700 dark:bg-zinc-800 rounded-md p-4 hover:scale-105 transition-transform duration-300'>
+          <div
+            key={tech.name}
+            className='flex flex-row gap-2 items-center border-2 border-slate-200 dark:border-zinc-700 dark:bg-zinc-800 rounded-md p-4 hover:scale-105 transition-transform duration-300'
+          >
             <img src={tech.image} alt='HTML' className='w-8 h-8' />
             <span className='text-slate-600 dark:text-zinc-400 font-medium'>
               {tech.name}

@@ -106,13 +106,14 @@ function AboutMe () {
                 height='352'
                 allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
                 loading='lazy'
+                allowFullScreen=''
               ></iframe>
               <iframe
                 data-testid='embed-iframe'
                 src='https://open.spotify.com/embed/album/7ah4nkw82m0ngQwPKrgHUc?utm_source=generator&theme=0'
                 width='100%'
                 height='352'
-                allowfullscreen=''
+                allowFullScreen=''
                 allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
                 loading='lazy'
               ></iframe>
