@@ -6,6 +6,10 @@ function FunTerminal () {
 
   const commands = {
     help: 'Available commands: about, projects, contact, clear',
+    hi: 'Hello, nice to meet you 👋. You can use "help" for available commands.',
+    hey: "Hey, what's up?,  nice to meet you 👋. You can use 'help' for available commands.",
+    hello:
+      'Hi, how"s your day? nice to meet you👋. You can use "help" for available commands.',
     about:
       "Hi, I'm Eldad 👋. A computer science fresh graduate who want's to be software developer.",
     projects: 'Checkout my projects at Projects page for more details.',
