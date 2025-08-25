@@ -14,7 +14,11 @@ function AboutMe () {
         {/* left column */}
         <div className='flex flex-col w-full md:w-1/3 lg:w-1/4 items-center md:items-start space-y-6'>
           <div className='w-48 h-48 sm:w-56 sm:h-56 rounded-full border-4 border-gray-600 overflow-hidden bg-gray-700 flex items-center justify-center text-sm text-gray-400'>
-            <img src='/images/about_me_profile.jpg' alt='Photo Profile' />
+            <img
+              src='/images/alternative_profile.jpg'
+              className='object-cover w-full h-full'
+              alt='Photo Profile'
+            />
           </div>
 
           <div className='flex flex-col w-full space-y-3'>
